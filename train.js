@@ -5,15 +5,15 @@ import { createChart, updateChart } from "./scatterplot.js"
 //
 // demo data
 //
-function loadData(){
-    Papa.parse("./house-prices.csv", {
-        download:true,
-        header:true, 
-        dynamicTyping:true,
-        complete: results => console.log(results.data)
-    })
-}
-loadData()
+// function loadData(){
+//     Papa.parse("./house-prices.csv", {
+//         download:true,
+//         header:true, 
+//         dynamicTyping:true,
+//         complete: results => console.log(results.data)
+//     })
+// }
+// loadData()
 
  
 
